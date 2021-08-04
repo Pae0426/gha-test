@@ -7,10 +7,10 @@ name: Run shelscript
 
 jobs:
   shelscript:
-    name: run-shel
     runs-on: ubuntu-latest
     timeout-minutes: 120
 
     steps:
-      run: |
-        sh hello.sh
+      - name: run-shel
+        run: |
+          sh hello.sh
