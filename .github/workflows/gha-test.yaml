@@ -12,6 +12,4 @@ jobs:
 
     steps:
       - name: run-shel
-        run: |
-          sh ../hello.sh
-          echo "AWS Cost in $(date '+%Y-%m') (JPY)"
+        run: sh hello.sh
