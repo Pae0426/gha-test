@@ -12,5 +12,4 @@ jobs:
 
     steps:
       - name: run-shel
-        run: |
-          sh hello.sh
+        run: sh hello.sh
