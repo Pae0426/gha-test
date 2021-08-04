@@ -1,0 +1,15 @@
+on:
+  push:
+    branches:
+      - master
+
+name: Run shelscript
+
+jobs:
+  shelscript:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      run: |
+        sh hello.sh
