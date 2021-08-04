@@ -12,5 +12,4 @@ jobs:
 
     steps:
       - name: run-shel
-        uses: actions/checkout@v2
-        run: sh hello.sh
+        run: hello.sh
