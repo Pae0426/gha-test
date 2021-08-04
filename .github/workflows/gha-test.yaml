@@ -11,5 +11,6 @@ jobs:
     timeout-minutes: 120
 
     steps:
+      - uses: actions/checkout@v2
       - name: run-shel
         run: sh hello.sh
